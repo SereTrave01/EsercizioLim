@@ -1,0 +1,92 @@
+body{
+    background-image: url(background.jpg);
+		width: 99%;
+		height: 100px;
+		background-attachment: fixed;
+        background-size: cover;
+		}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 100px;
+}
+
+.logo{
+    margin-left: 40%;
+    width: 200px;
+}
+
+.testo_logo{
+    font_size: 25px;
+}
+
+/*-- Navbar--*/
+nav {
+	padding: 10px;
+	width: 99%;	
+	height: 30px;
+	background-color: rgb(14, 191, 14);
+    position: relative;
+	}
+
+nav ul	{
+		text-align: center;
+        margin-top: 2px;
+		}
+		
+nav ul li{
+		display: inline-block;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+        position: relative;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: #fff;
+                }
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.testo_logo{
+    color: rgb(14, 191, 14);
+    margin-left: 350px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color_text{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 50px;
+        }
+
+.ch{
+    font-weight: 200;
+}
+
+.bar1{
+    background-color: orange;
+    width: 300px;
+    height: 20px;
+    border-radius: 3px;
+}
+.bar2{
+    background-color: green;
+    width: 500px;
+    height: 20px;
+    border-radius: 3px;
+}
+.bar3{
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+}
